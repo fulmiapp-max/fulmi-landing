@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+/dist
+
+# Env & Firebase
+.env
+.env.local
+.firebaserc
+firebase-debug.log
+.firebase
+
+# IDEs and editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
