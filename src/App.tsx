@@ -26,23 +26,24 @@ const TRANSLATIONS = {
       startBtn: "풀미 시작하기 ➔"
     },
     background: {
-      headline: "왜 우리는 일기를 쓰고도 변하지 않을까?",
-      card1Title: "기록을 묻어두지 마세요",
-      card1Desc: "매일 쓰는 일기는 보통 감정 배출이나 단순한 기록에 그치고 맙니다. ‘Fulmi’는 기록을 과거에 묻어두지 않습니다. 기록을 데이터화하여 깊은 성찰을 유도하고, 오늘 반드시 움직이게 만드는 [기록 ➔ 성찰 ➔ 실행]의 선순환 파이프라인을 구축합니다.",
-      card2Title: "매일 아침이 막막하다면",
-      card2Desc: "이미 계획이 완벽한 사람에겐 ‘Fulmi’가 필요 없습니다. 매일 다이어리만 열심히 쓰고 제자리걸음인 분, 아침마다 \"오늘 뭐 해야 하지?\" 막막함과 결정 피로를 느끼는 분들에게 실질적인 삶의 변화를 선물하기 위해 만들었습니다.",
-      card3Title: "어제의 성찰을 오늘의 행동으로",
-      card3Desc: "일기를 기록하면 깊은 공감과 함께 냉철한 피드백(Reality Check)으로 진짜 나를 직면하게 돕고, 다음날 실행할 구체적인 행동(Micro-task)을 드립니다. 계획을 짜는 피로감 없이, 당신은 오직 실행에만 집중하세요."
+      headline: "왜 우리는 매일 일기를 쓰고도 변하지 않을까?",
+      subHeadline: "기록을 과거에 묻어두는 당신을 위해, Fulmi가 풀고 싶은 문제들",
+      card1Title: "과거에 묻혀버리는 소중한 기록",
+      card1Desc: "매일 열심히 쓰는 일기가 그저 감정을 쏟아내는 일회성 기록에 그치고 있진 않나요?\n어제의 일기를 깊은 성찰로 연결하지 못하면, 소중한 기록들은 결국 과거에 묻히고 말아요.",
+      card2Title: "아침마다 찾아오는 실행의 막막함",
+      card2Desc: "어제 다이어리를 가득 채웠어도, 다음 날 아침이면 \"오늘 뭐 해야 하지?\" 하는 막막함이 밀려옵니다.\n무거운 결정 피로 속에서 정작 오늘 나를 움직이게 만들 실행력은 점점 희미해지곤 하죠.",
+      card3Title: "공감과 행동을 잇는 고리의 부재",
+      card3Desc: "따뜻한 위로를 받더라도 오늘 바로 실천할 구체적인 행동으로 이어지기는 생각보다 어려워요.\n일기가 피드백을 거쳐 할 일로 이어지는 선순환이 없기에, 우리 삶은 제자리걸음을 반복하게 됩니다."
     },
     features: {
       headline: "나를 바꾸는 3단계 셀프 성장 시스템",
       subHeadline: "기록에서 성찰로, 성찰에서 실행으로 이어지는 강력한 솔루션",
-      feat1Title: "감정 및 에너지 트래킹 (Log)",
-      feat1Desc: "단순한 텍스트 기록을 넘어, 그날의 감정 상태와 신체적·정신적 에너지 레벨을 직관적으로 데이터화합니다. 내가 언제 지치고 언제 힘을 얻는지 한눈에 파악하는 성장의 기반이 됩니다.",
+      feat1Title: "감정·에너지 트래킹 (Log)",
+      feat1Desc: "단순 텍스트를 넘어 그날의 감정과 에너지 레벨을 직관적으로 데이터화합니다. 내가 언제 지치고 힘을 얻는지 한눈에 파악하세요.",
       feat2Title: "AI 성찰 피드백 (Reality Check)",
-      feat2Desc: "사용자의 기록을 바탕으로 깊은 공감을 전하되, 필요한 순간에는 객관적인 분석과 현실적인 조언(Stinging Advice)을 함께 제공하여 스스로를 돌아보게 만듭니다.",
-      feat3Title: "기록 기반의 To-Do 자동 생성 (Action)",
-      feat3Desc: "성찰에만 머무르지 않도록, 과거 일기의 맥락을 분석하여 다음날 실천 가능한 구체적인 행동 지침(Micro-task)을 유기적으로 도출해 줍니다. 무엇을 해야 할지 고민하는 피로도를 제로(0)로 만듭니다."
+      feat2Desc: "따뜻한 공감을 넘어, 때로는 객관적인 분석과 냉철한 조언(Stinging Advice)으로 진짜 나를 직면하게 돕습니다.",
+      feat3Title: "기록 기반 To-Do 자동 생성 (Action)",
+      feat3Desc: "어제 일기의 맥락을 분석해 오늘 실천할 Micro-task를 받아보세요. 무엇을 해야 할지 고민하는 피로도가 0이 됩니다."
     },
     demo: {
       headline: "AI 분석 실시간 가상 체험하기",
@@ -93,23 +94,24 @@ const TRANSLATIONS = {
       startBtn: "Start Fulmi ➔"
     },
     background: {
-      headline: "Why Do We Write Diaries and Still Not Change?",
-      card1Title: "Don't Bury Your Records",
-      card1Desc: "Daily journaling often ends up as a mere emotional release or history. 'Fulmi' does not leave your records in the past. We turn records into structured data to drive deep reflection, building a virtuous cycle of [Record ➔ Reflect ➔ Act] that propels you forward today.",
-      card2Title: "Lost Every Morning?",
-      card2Desc: "Those with perfect planning do not need 'Fulmi'. We made this to bring real life transformation to those who faithfully keep a journal yet feel stuck, and those who face blank-page anxiety and decision fatigue every morning.",
-      card3Title: "Yesterday's Reflection to Today's Action",
-      card3Desc: "Recording your diary helps you face your true self through a sharp Reality Check coupled with deep empathy, providing concrete micro-tasks to act on the next day. Forget plan fatigue; focus purely on execution."
+      headline: "Why Do We Keep Journaling Daily and Still Not Change?",
+      subHeadline: "For you who buries your records in the past, problems Fulmi wants to solve",
+      card1Title: "Precious Records Buried in the Past",
+      card1Desc: "Does your daily, dedicated journaling end up as just a one-off emotional release?\nWithout connecting yesterday's diary to deep reflection, your precious records eventually get buried.",
+      card2Title: "Morning Hesitation in Taking Action",
+      card2Desc: "Even if you filled your journal yesterday, you face blank-page anxiety tomorrow morning.\nUnder heavy decision fatigue, the actual drive to move today gradually fades away.",
+      card3Title: "Absence of a Bridge Between Empathy and Action",
+      card3Desc: "Even with warm comfort, bridging it directly to actionable steps today is harder than it looks.\nWithout a loop from journal to feedback to to-do, life keeps running in circles."
     },
     features: {
       headline: "3-Step Self-Growth System",
       subHeadline: "A powerful workflow moving from recording to reflection, and reflection to execution.",
       feat1Title: "Emotion & Energy Tracking (Log)",
-      feat1Desc: "Going beyond simple text entries, we intuitively digitize your daily emotional state along with your physical and mental energy levels. This forms the foundation of growth by revealing at a glance when you drain and when you gain strength.",
+      feat1Desc: "Go beyond simple text to intuitively digitize your emotions and energy levels. See at a glance when you drain and gain strength.",
       feat2Title: "AI Reflection Feedback (Reality Check)",
-      feat2Desc: "We deliver deep empathy based on your records, while providing objective analysis and stinging advice when necessary, encouraging honest self-reflection.",
+      feat2Desc: "Go beyond warm empathy; face your true self with objective analysis and stinging advice when you need it.",
       feat3Title: "Diary-Driven Automated To-Do (Action)",
-      feat3Desc: "To ensure you don't stop at mere reflection, we analyze the context of past diaries to organically derive actionable micro-tasks for the next day, reducing planning fatigue to absolute zero."
+      feat3Desc: "Analyze yesterday's diary to receive micro-tasks for today. Reduce the fatigue of planning to absolute zero."
     },
     demo: {
       headline: "Try Live AI Analysis Simulation",
@@ -405,7 +407,7 @@ export default function App() {
               </h1>
               
               {/* 서브 타이틀 */}
-              <p className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 font-medium mb-6 md:mb-8 max-w-2xl leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 dark:text-slate-400 font-normal mb-6 md:mb-8 max-w-2xl leading-relaxed">
                 {t.hero.subTitle}
               </p>
 
@@ -445,7 +447,12 @@ export default function App() {
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-3">
               {t.background.headline}
             </h2>
-            <div className="w-12 h-1 bg-indigo-600 rounded-full mx-auto"></div>
+            {t.background.subHeadline && (
+              <p className="text-slate-500 dark:text-slate-400 text-base sm:text-lg mt-3 max-w-2xl mx-auto">
+                {t.background.subHeadline}
+              </p>
+            )}
+            <div className="w-12 h-1 bg-indigo-600 rounded-full mx-auto mt-4"></div>
           </div>
 
           {/* 3대 핵심 가치 카드 구성 */}
@@ -455,15 +462,15 @@ export default function App() {
               <div>
                 <div className="w-full h-60 sm:h-64 bg-white dark:bg-slate-900/60 rounded-xl p-0 mb-6 flex items-center justify-center border border-slate-200/40 dark:border-slate-800/40 overflow-hidden">
                   <img 
-                    src="/assets/notion_diary.png" 
-                    alt={t.background.card1Title} 
-                    className="w-full h-full object-contain mix-blend-darken dark:mix-blend-normal opacity-90 scale-135 sm:scale-145 transition-transform duration-500 ease-out group-hover:scale-155" 
+                     src="/assets/notion_diary.png" 
+                     alt={t.background.card1Title} 
+                     className="w-full h-full object-contain mix-blend-darken dark:mix-blend-normal opacity-90 scale-135 sm:scale-145 transition-transform duration-500 ease-out group-hover:scale-155" 
                   />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
                   {t.background.card1Title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base font-normal">
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-base sm:text-lg font-normal whitespace-pre-line">
                   {t.background.card1Desc}
                 </p>
               </div>
@@ -474,15 +481,15 @@ export default function App() {
               <div>
                 <div className="w-full h-60 sm:h-64 bg-white dark:bg-slate-900/60 rounded-xl p-0 mb-6 flex items-center justify-center border border-slate-200/40 dark:border-slate-800/40 overflow-hidden">
                   <img 
-                    src="/assets/notion_people.png" 
-                    alt={t.background.card2Title} 
-                    className="w-full h-full object-contain mix-blend-darken dark:mix-blend-normal opacity-90 scale-135 sm:scale-145 transition-transform duration-500 ease-out group-hover:scale-155" 
+                     src="/assets/notion_people.png" 
+                     alt={t.background.card2Title} 
+                     className="w-full h-full object-contain mix-blend-darken dark:mix-blend-normal opacity-90 scale-135 sm:scale-145 transition-transform duration-500 ease-out group-hover:scale-155" 
                   />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
                   {t.background.card2Title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base font-normal">
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-base sm:text-lg font-normal whitespace-pre-line">
                   {t.background.card2Desc}
                 </p>
               </div>
@@ -493,15 +500,15 @@ export default function App() {
               <div>
                 <div className="w-full h-60 sm:h-64 bg-white dark:bg-slate-900/60 rounded-xl p-0 mb-6 flex items-center justify-center border border-slate-200/40 dark:border-slate-800/40 overflow-hidden">
                   <img 
-                    src="/assets/notion_growth.png" 
-                    alt={t.background.card3Title} 
-                    className="w-full h-full object-contain mix-blend-darken dark:mix-blend-normal opacity-90 scale-135 sm:scale-145 transition-transform duration-500 ease-out group-hover:scale-155" 
+                     src="/assets/notion_growth.png" 
+                     alt={t.background.card3Title} 
+                     className="w-full h-full object-contain mix-blend-darken dark:mix-blend-normal opacity-90 scale-135 sm:scale-145 transition-transform duration-500 ease-out group-hover:scale-155" 
                   />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
                   {t.background.card3Title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base font-normal">
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-base sm:text-lg font-normal whitespace-pre-line">
                   {t.background.card3Desc}
                 </p>
               </div>
@@ -520,7 +527,7 @@ export default function App() {
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-3">
               {t.features.headline}
             </h2>
-            <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base">
+            <p className="text-slate-500 dark:text-slate-400 text-base sm:text-lg">
               {t.features.subHeadline}
             </p>
           </div>
@@ -537,7 +544,7 @@ export default function App() {
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-3 md:mb-6">
                   {t.features.feat1Title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base font-normal">
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-base sm:text-lg font-normal">
                   {t.features.feat1Desc}
                 </p>
               </div>
@@ -577,7 +584,7 @@ export default function App() {
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-3 md:mb-6">
                   {t.features.feat2Title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base font-normal">
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-base sm:text-lg font-normal">
                   {t.features.feat2Desc}
                 </p>
               </div>
@@ -609,7 +616,7 @@ export default function App() {
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-3 md:mb-6">
                   {t.features.feat3Title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base font-normal">
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-base sm:text-lg font-normal">
                   {t.features.feat3Desc}
                 </p>
               </div>
@@ -651,11 +658,11 @@ export default function App() {
         
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 relative z-10">
           <div className="text-center mb-8 md:mb-12">
-            <span className="text-indigo-400 font-bold text-xs uppercase tracking-widest font-outfit">Live Simulator</span>
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold tracking-tight mt-1 mb-2">
+            <span className="text-indigo-400 font-bold text-xs sm:text-sm uppercase tracking-widest font-outfit">Live Simulator</span>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight mt-1 mb-2">
               {t.demo.headline}
             </h2>
-            <p className="text-slate-400 max-w-2xl mx-auto text-xs sm:text-sm">
+            <p className="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">
               {t.demo.subHeadline}
             </p>
           </div>
@@ -781,7 +788,7 @@ export default function App() {
               <ChevronDown className={`w-5.5 h-5.5 text-slate-400 flex-shrink-0 transition-transform duration-300 ${activeFaq === 1 ? 'rotate-180 text-indigo-600' : ''}`} />
             </button>
             <div className={`transition-all duration-300 overflow-hidden ${activeFaq === 1 ? 'max-h-80 border-t border-slate-100 dark:border-slate-750' : 'max-h-0'}`}>
-              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed font-normal">
+              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed font-normal">
                 {t.faq.a1}
               </div>
             </div>
@@ -797,7 +804,7 @@ export default function App() {
               <ChevronDown className={`w-5.5 h-5.5 text-slate-400 flex-shrink-0 transition-transform duration-300 ${activeFaq === 2 ? 'rotate-180 text-indigo-600' : ''}`} />
             </button>
             <div className={`transition-all duration-300 overflow-hidden ${activeFaq === 2 ? 'max-h-80 border-t border-slate-100 dark:border-slate-750' : 'max-h-0'}`}>
-              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed font-normal">
+              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed font-normal">
                 {t.faq.a2}
               </div>
             </div>
@@ -813,7 +820,7 @@ export default function App() {
               <ChevronDown className={`w-5.5 h-5.5 text-slate-400 flex-shrink-0 transition-transform duration-300 ${activeFaq === 3 ? 'rotate-180 text-indigo-600' : ''}`} />
             </button>
             <div className={`transition-all duration-300 overflow-hidden ${activeFaq === 3 ? 'max-h-80 border-t border-slate-100 dark:border-slate-750' : 'max-h-0'}`}>
-              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed font-normal">
+              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed font-normal">
                 {t.faq.a3}
               </div>
             </div>
@@ -829,7 +836,7 @@ export default function App() {
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight leading-tight">
             {t.cta.mainCopy}
           </h2>
-          <p className="text-indigo-200 text-sm sm:text-base font-medium max-w-xl mx-auto">
+          <p className="text-indigo-200 text-base sm:text-lg font-normal max-w-xl mx-auto">
             {t.cta.subCopy}
           </p>
           <div className="pt-2 sm:pt-4">
@@ -852,7 +859,7 @@ export default function App() {
             </div>
             <span className="text-slate-200 font-bold text-base sm:text-lg tracking-tight font-outfit">Fulmi</span>
           </div>
-          <p className="max-w-lg mx-auto leading-relaxed text-slate-350 text-sm sm:text-base">
+          <p className="max-w-lg mx-auto leading-relaxed text-slate-350 text-base sm:text-lg">
             {t.footer.desc}
           </p>
           
