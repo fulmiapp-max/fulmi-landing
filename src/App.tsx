@@ -662,7 +662,7 @@ export default function App() {
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight mt-1 mb-2">
               {t.demo.headline}
             </h2>
-            <p className="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base">
+            <p className="text-slate-400 max-w-2xl mx-auto text-base sm:text-lg">
               {t.demo.subHeadline}
             </p>
           </div>
