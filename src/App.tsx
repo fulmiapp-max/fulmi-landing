@@ -558,7 +558,9 @@ export default function App() {
                     <Smile className="w-7 h-7 sm:w-8 sm:h-8 text-indigo-500" />
                     <div className="text-left">
                       <p className="text-[10px] sm:text-xs text-slate-400 font-semibold">Emotion</p>
-                      <p className="font-extrabold text-slate-800 dark:text-slate-200 text-xs sm:text-sm">기쁨 & 설렘 (Joyful)</p>
+                      <p className="font-extrabold text-slate-800 dark:text-slate-200 text-xs sm:text-sm">
+                        {lang === 'ko' ? "기쁨 & 설렘 (Joyful)" : "Joy & Excitement (Joyful)"}
+                      </p>
                     </div>
                   </div>
                   <span className="px-3 py-1 bg-green-50 dark:bg-green-950/30 text-green-600 text-[10px] sm:text-xs font-black rounded-full">Good</span>
@@ -632,7 +634,11 @@ export default function App() {
                       <p className="font-bold text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed">
                         {lang === 'ko' ? "내일 아침 눈떴을 때 스마트폰 대신 창문 열고 1분간 깊은 호흡하기" : "Upon waking tomorrow, open the window and take a deep breath for 1 min instead of checking your phone"}
                       </p>
-                      <p className="text-xs sm:text-sm text-slate-400 mt-1">Based on: 어제 아침 일어날 때 극심한 무기력감을 느꼈다는 기록</p>
+                      <p className="text-xs sm:text-sm text-slate-400 mt-1">
+                        {lang === 'ko' 
+                          ? "Based on: 어제 아침 일어날 때 극심한 무기력감을 느꼈다는 기록" 
+                          : "Based on: Record of feeling severe helplessness upon waking yesterday morning"}
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm border border-slate-200/60 dark:border-slate-800">
@@ -641,7 +647,11 @@ export default function App() {
                       <p className="font-bold text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed">
                         {lang === 'ko' ? "프로젝트 명세서 작업 시 타이머를 25분에 맞추고 초집중 후 5분 무조건 눕기" : "Set a timer for 25 mins when working on documentation, then lie down for 5 mins"}
                       </p>
-                      <p className="text-xs sm:text-sm text-slate-400 mt-1">Based on: 프로젝트 문서화 과정에서 집중력이 끊겨 괴로웠다는 기록</p>
+                      <p className="text-xs sm:text-sm text-slate-400 mt-1">
+                        {lang === 'ko' 
+                          ? "Based on: 프로젝트 문서화 과정에서 집중력이 끊겨 괴로웠다는 기록" 
+                          : "Based on: Record of struggling with distraction during project documentation"}
+                      </p>
                     </div>
                   </div>
                 </div>
