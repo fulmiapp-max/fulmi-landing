@@ -4,7 +4,6 @@ import {
   Sparkles, 
   ChevronDown, 
   Globe,
-  Smile,
   Activity,
   CheckSquare,
   MessageSquare
@@ -60,11 +59,11 @@ const TRANSLATIONS = {
     faq: {
       headline: "자주 묻는 질문",
       q1: "정말 일기만 쓰면 To-Do가 자동으로 생기나요?",
-      a1: "네, 맞습니다! 작성하신 감정 상태와 사건 일기의 텍스트를 인공지능이 면밀히 분석하여, 다음 날 아침 당신의 멘탈을 케어하거나 생산성을 높여줄 초소형 행동 요령(Micro-task)을 자동으로 장착해 줍니다.",
+      a1: "네, 맞습니다! 작성하신 일기의 감정과 맥락을 AI가 분석하여, 다음 날 일상에서 실천할 수 있는 맞춤형 To-Do를 추천해 드립니다. 무엇을 해야 할지 고민하는 피로 없이 하루를 가볍게 시작할 수 있어요.",
       q2: "Pro 멤버십 결제는 나중에 모바일 앱을 다운받아도 유지되나요?",
-      a2: "네, 완벽하게 연동됩니다. 웹(Web) 브라우저를 통해 먼저 구독을 시작하셨더라도 동일한 로그인 이메일 ID를 사용해 나중에 출시될 스마트폰 앱(iOS/Android)에 로그인하시면 Pro 권한 및 다이어리 히스토리가 고스란히 활성화됩니다.",
+      a2: "네, 완벽하게 연동됩니다. 웹에서 구독을 시작하셨더라도 동일한 계정으로 모바일 앱(iOS/Android)에 로그인하시면 Pro 권한과 기존 일기 데이터가 모두 그대로 유지됩니다.",
       q3: "데이터와 일기 기록의 보안은 안전한가요?",
-      a3: "Fulmi는 모든 일기 텍스트와 감정 분석 데이터를 군사 등급의 최첨단 암호화 표준을 활용하여 안전하게 암호화하여 저장합니다. 개인 식별 데이터는 절대 외부 공유되지 않습니다."
+      a3: "네, 안심하셔도 좋습니다. Fulmi는 모든 일기와 감정 분석 데이터를 표준 암호화 기술로 안전하게 보관하며, 오직 본인만 열람할 수 있도록 철저히 보호됩니다."
     },
     cta: {
       mainCopy: "매일 아침 마주하던 막막함을, 내일의 확실한 성취로.",
@@ -128,11 +127,11 @@ const TRANSLATIONS = {
     faq: {
       headline: "Frequently Asked Questions",
       q1: "Does it really generate To-Dos automatically just by writing?",
-      a1: "Yes, exactly! Our AI scans your mood logs and notes to equip you with tiny, high-impact habits (Micro-tasks) that optimize your mental state and boost productivity next morning.",
+      a1: "Yes, exactly! Our AI analyzes the emotions and context of your diary to recommend customized To-Dos for the next day. You can start your day lightly without the fatigue of wondering what to do.",
       q2: "Will my Pro membership persist if I download the mobile app later?",
-      a2: "Absolutely. Even if you subscribe on the web landing page, signing into the future iOS/Android apps with the same email ID instantly unlocks your Pro features and syncs your diary logs.",
+      a2: "Yes, perfectly synced. Even if you start your subscription on the web, logging in with the same account on mobile apps (iOS/Android) seamlessly preserves your Pro benefits and diary logs.",
       q3: "Is my personal data and diary content secure?",
-      a3: "Fulmi encrypts all logs and emotional analyses using military-grade security standards. Your personal identifiable data is never exposed or sold to third parties."
+      a3: "Yes, you can rest assured. Fulmi safely stores all journal and emotion analysis data with standard encryption, strictly protected so that only you can view it."
     },
     cta: {
       mainCopy: "Turn morning hesitation into tomorrow's definite achievement.",
@@ -555,7 +554,7 @@ export default function App() {
                 </div>
                 <div className="flex items-center justify-between bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm">
                   <div className="flex items-center gap-3">
-                    <Smile className="w-7 h-7 sm:w-8 sm:h-8 text-indigo-500" />
+                    <span className="text-[28px] sm:text-[32px] leading-none select-none flex-shrink-0" role="img" aria-label="joyful">🥰</span>
                     <div className="text-left">
                       <p className="text-[10px] sm:text-xs text-slate-400 font-semibold">Emotion</p>
                       <p className="font-extrabold text-slate-800 dark:text-slate-200 text-xs sm:text-sm">
@@ -567,7 +566,7 @@ export default function App() {
                 </div>
                 <div className="flex flex-col gap-1.5 bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm text-left">
                   <div className="flex items-center justify-between text-[10px] sm:text-xs text-slate-400 font-bold">
-                    <span>Energy Status</span>
+                    <span>⚡ Energy Status</span>
                     <span className="font-extrabold text-indigo-600">85%</span>
                   </div>
                   <div className="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
@@ -590,19 +589,19 @@ export default function App() {
                   {t.features.feat2Desc}
                 </p>
               </div>
-              <div className="lg:col-span-6 lg:order-1 bg-slate-100 dark:bg-slate-800 rounded-2xl p-3 sm:p-8 border border-slate-200/50 dark:border-slate-700/50 shadow-sm flex flex-col gap-3 text-left mt-4 lg:mt-0">
-                <div className="flex items-center gap-2 text-indigo-600 dark:text-indigo-400 font-extrabold text-xs sm:text-sm">
+              <div className="lg:col-span-6 lg:order-1 bg-slate-100 dark:bg-slate-800 rounded-2xl p-3 sm:p-8 border border-slate-200/50 dark:border-slate-700/50 shadow-sm flex flex-col gap-3 sm:gap-4 text-left mt-4 lg:mt-0">
+                <div className="flex items-center gap-2 text-indigo-600 dark:text-indigo-400 font-extrabold text-xs sm:text-sm tracking-wider uppercase">
                   <MessageSquare className="w-4 h-4" />
                   Reality Check
                 </div>
                 <div className="bg-white dark:bg-slate-900 p-4 sm:p-5 rounded-xl border-l-4 border-indigo-600 shadow-sm text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-slate-300 font-semibold">
                   {lang === 'ko' ? (
                     <>
-                      "매일 바쁘게 움직이고 있지만 정작 알맹이가 빠진 기분이 드는 건 당연합니다. 지금 당신은 계획을 너무 무리하게 세워놓고 정작 중요한 <strong>'선택과 집중'</strong>을 방해하고 있어요. 오늘 밤엔 내일의 To-Do 목록 중 3가지를 지워 가볍게 만드는 것부터 시작해야 무너지지 않습니다."
+                      "오늘 하루도 정말 애쓰셨어요. 다만 모든 것을 완벽하게 해내려다 보면 정작 나 자신의 에너지를 놓치기 쉽습니다. 지금 필요한 건 더 많은 노력이 아니라 <strong>'작은 쉼표와 선택'</strong>이에요. 내일은 가장 중요한 단 한 가지에만 집중하고, 나머지는 마음에 여유를 두고 시작해 보세요."
                     </>
                   ) : (
                     <>
-                      "It's natural to feel busy yet empty inside. Right now, you are over-planning and obstructing actual <strong>'focus & selectiveness'</strong>. To avoid burning out, delete at least 3 tasks from tomorrow's list tonight and keep it light."
+                      "You worked really hard today. However, trying to do everything perfectly makes it easy to lose your own vital energy. What you need right now is not more effort, but <strong>'a small pause and clear choice'</strong>. Tomorrow, focus on just one most important thing, and start the rest with ease of mind."
                     </>
                   )}
                 </div>
@@ -629,28 +628,28 @@ export default function App() {
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3 bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm border border-slate-200/60 dark:border-slate-800">
-                    <input type="checkbox" checked={false} readOnly className="mt-1 w-5 h-5 rounded text-indigo-600 focus:ring-indigo-500" />
+                    <input type="checkbox" checked={false} readOnly className="mt-1 w-5 h-5 rounded text-indigo-600 focus:ring-indigo-500 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed">
-                        {lang === 'ko' ? "내일 아침 눈떴을 때 스마트폰 대신 창문 열고 1분간 깊은 호흡하기" : "Upon waking tomorrow, open the window and take a deep breath for 1 min instead of checking your phone"}
+                      <p className="font-bold text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-snug">
+                        {lang === 'ko' ? "아침 기상 후 창문 열고 깊은 호흡 1분 하기" : "Take a deep breath for 1 min by the open window"}
                       </p>
                       <p className="text-xs sm:text-sm text-slate-400 mt-1">
                         {lang === 'ko' 
-                          ? "Based on: 어제 아침 일어날 때 극심한 무기력감을 느꼈다는 기록" 
-                          : "Based on: Record of feeling severe helplessness upon waking yesterday morning"}
+                          ? "어제 아침 무기력함을 느꼈다는 기록을 바탕으로, 신선한 공기로 활력을 깨워요." 
+                          : "Based on yesterday's note of morning fatigue, wake up your vitality with fresh air."}
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm border border-slate-200/60 dark:border-slate-800">
-                    <input type="checkbox" checked={false} readOnly className="mt-1 w-5 h-5 rounded text-indigo-600 focus:ring-indigo-500" />
+                    <input type="checkbox" checked={false} readOnly className="mt-1 w-5 h-5 rounded text-indigo-600 focus:ring-indigo-500 flex-shrink-0" />
                     <div>
-                      <p className="font-bold text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed">
-                        {lang === 'ko' ? "프로젝트 명세서 작업 시 타이머를 25분에 맞추고 초집중 후 5분 무조건 눕기" : "Set a timer for 25 mins when working on documentation, then lie down for 5 mins"}
+                      <p className="font-bold text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-snug">
+                        {lang === 'ko' ? "25분 몰입 작업 후 5분간 가볍게 스트레칭하기" : "Rest & stretch for 5 mins after 25 mins of deep focus"}
                       </p>
                       <p className="text-xs sm:text-sm text-slate-400 mt-1">
                         {lang === 'ko' 
-                          ? "Based on: 프로젝트 문서화 과정에서 집중력이 끊겨 괴로웠다는 기록" 
-                          : "Based on: Record of struggling with distraction during project documentation"}
+                          ? "업무 중 집중력이 끊겨 힘들었다는 일기 맥락을 반영한 실천 루틴이에요." 
+                          : "A micro-routine reflecting your diary context of losing concentration during work."}
                       </p>
                     </div>
                   </div>
@@ -798,7 +797,7 @@ export default function App() {
               <ChevronDown className={`w-5.5 h-5.5 text-slate-400 flex-shrink-0 transition-transform duration-300 ${activeFaq === 1 ? 'rotate-180 text-indigo-600' : ''}`} />
             </button>
             <div className={`transition-all duration-300 overflow-hidden ${activeFaq === 1 ? 'max-h-80 border-t border-slate-100 dark:border-slate-750' : 'max-h-0'}`}>
-              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed font-normal">
+              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed font-normal">
                 {t.faq.a1}
               </div>
             </div>
@@ -814,7 +813,7 @@ export default function App() {
               <ChevronDown className={`w-5.5 h-5.5 text-slate-400 flex-shrink-0 transition-transform duration-300 ${activeFaq === 2 ? 'rotate-180 text-indigo-600' : ''}`} />
             </button>
             <div className={`transition-all duration-300 overflow-hidden ${activeFaq === 2 ? 'max-h-80 border-t border-slate-100 dark:border-slate-750' : 'max-h-0'}`}>
-              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed font-normal">
+              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed font-normal">
                 {t.faq.a2}
               </div>
             </div>
@@ -830,7 +829,7 @@ export default function App() {
               <ChevronDown className={`w-5.5 h-5.5 text-slate-400 flex-shrink-0 transition-transform duration-300 ${activeFaq === 3 ? 'rotate-180 text-indigo-600' : ''}`} />
             </button>
             <div className={`transition-all duration-300 overflow-hidden ${activeFaq === 3 ? 'max-h-80 border-t border-slate-100 dark:border-slate-750' : 'max-h-0'}`}>
-              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed font-normal">
+              <div className="pt-0.5 pb-3.5 px-4 text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed font-normal">
                 {t.faq.a3}
               </div>
             </div>
